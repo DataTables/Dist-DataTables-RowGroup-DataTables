@@ -3,7 +3,7 @@
     "version": "1.0.1",
     "description": "RowGroup for DataTables ",
     "files": [
-        "css/rowGroup.dataTables.css"
+        "css/**/*.css"
     ],
     "keywords": [
         "row grouping",
