@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-rowgroup-dt",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "RowGroup for DataTables ",
     "files": [
         "css/**/*.css"
@@ -21,9 +21,8 @@
     },
     "dependencies": {
         "jquery": ">=1.7",
-        "datatables.net": ">=1.10.13",
-        "datatables.net-rowgroup": "1.0.1",
-        "datatables.net-dt": "^1.10.15"
+        "datatables.net-dt": "^1.10.15",
+        "datatables.net-rowgroup": "1.0.2"
     },
     "style": "css/rowGroup.dataTables.css"
 }
