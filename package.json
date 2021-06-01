@@ -3,6 +3,7 @@
     "description": "RowGroup for DataTables with styling for [DataTables](https://datatables.net/)",
     "main": "js/rowGroup.dataTables.js",
     "style": "css/rowGroup.dataTables.css",
+    "types": "./types/rowGroup.dataTables.d.ts",
     "version": "1.1.2",
     "files": [
         "css/**/*.css",
