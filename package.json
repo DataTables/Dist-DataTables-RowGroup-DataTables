@@ -2,12 +2,14 @@
     "name": "datatables.net-rowgroup-dt",
     "description": "RowGroup for DataTables with styling for [DataTables](https://datatables.net/)",
     "main": "js/rowGroup.dataTables.js",
+    "module": "js/rowGroup.dataTables.mjs",
     "style": "css/rowGroup.dataTables.css",
     "types": "./types/rowGroup.dataTables.d.ts",
     "version": "1.2.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
