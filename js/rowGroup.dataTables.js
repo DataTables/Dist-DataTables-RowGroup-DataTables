@@ -28,10 +28,9 @@
 				require('datatables.net-dt')(root, $);
 			}
 
-			if ( ! $.fn.dataTable ) {
+			if ( ! $.fn.dataTable.RowGroup ) {
 				require('datatables.net-rowgroup')(root, $);
 			}
-
 
 			return factory( $, root, root.document );
 		};
