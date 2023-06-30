@@ -4,7 +4,7 @@
     "main": "js/rowGroup.dataTables.js",
     "module": "js/rowGroup.dataTables.mjs",
     "style": "css/rowGroup.dataTables.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/rowGroup.dataTables.d.ts",
     "version": "1.3.1",
     "files": [
         "css/**/*.css",
@@ -14,16 +14,16 @@
     ],
     "keywords": [
         "RowGroup",
-        "Row Grouping",
-        "Datatables",
+ "Row Grouping",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-rowgroup": ">=1.2.0",
-        "datatables.net-dt": ">=1.12.1",
+        "datatables.net-rowgroup": ">=1.3.1",
+        "datatables.net-dt": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
