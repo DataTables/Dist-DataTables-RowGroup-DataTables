@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-rowgroup-dt",
     "description": "RowGroup for DataTables with styling for [DataTables](https://datatables.net/)",
-    "main": "js/rowGroup.dataTables.js",
-    "module": "js/rowGroup.dataTables.mjs",
-    "style": "css/rowGroup.dataTables.css",
+    "main": "./js/rowGroup.dataTables.js",
+    "module": "./js/rowGroup.dataTables.mjs",
+    "style": "./css/rowGroup.dataTables.css",
     "types": "./types/rowGroup.dataTables.d.ts",
     "version": "2.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "RowGroup",
@@ -34,5 +33,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/RowGroup.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/rowGroup.dataTables.d.ts",
+            "import": "./js/rowGroup.dataTables.mjs",
+            "default": "./js/rowGroup.dataTables.mjs",
+            "require": "./js/rowGroup.dataTables.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/rowGroup.dataTables.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }

@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-rowgroup-dt",
-    "description": "RowGroup for DataTables with styling for [DataTables](https://datatables.net/)",
+    "description": "RowGroup for DataTables with styling for DataTables",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-RowGroup-DataTables"
