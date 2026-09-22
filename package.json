@@ -5,7 +5,7 @@
     "module": "./js/rowGroup.dataTables.mjs",
     "style": "./css/rowGroup.dataTables.css",
     "types": "./types/rowGroup.dataTables.d.ts",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "files": [
         "js",
         "css",
@@ -20,8 +20,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-rowgroup": "2.0.0",
-        "datatables.net-dt": "^3"
+        "datatables.net-rowgroup": "2.1.0",
+        "datatables.net-dt": "^3.1"
     },
     "author": {
         "name": "SpryMedia Ltd",
