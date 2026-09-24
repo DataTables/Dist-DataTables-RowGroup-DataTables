@@ -37,9 +37,10 @@
     "exports": {
         ".": {
             "types": "./types/rowGroup.dataTables.d.ts",
+            "style": "./css/rowGroup.dataTables.css",
             "import": "./js/rowGroup.dataTables.mjs",
-            "default": "./js/rowGroup.dataTables.mjs",
-            "require": "./js/rowGroup.dataTables.js"
+            "require": "./js/rowGroup.dataTables.js",
+            "default": "./js/rowGroup.dataTables.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
